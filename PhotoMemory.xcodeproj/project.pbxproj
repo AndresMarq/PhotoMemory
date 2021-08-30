@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9259623D26C8706D0047B198 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9259623C26C8706D0047B198 /* PersistenceController.swift */; };
+		9259624026C870DF0047B198 /* PhotoMemory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9259623E26C870DF0047B198 /* PhotoMemory.xcdatamodeld */; };
+		929EB62E26C8C05700E99EB2 /* MKPointAnnotation-ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929EB62D26C8C05700E99EB2 /* MKPointAnnotation-ObservableObject.swift */; };
+		929EB63626C8CE2E00E99EB2 /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929EB63526C8CE2E00E99EB2 /* LocationFetcher.swift */; };
+		929EB63826C8E11200E99EB2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929EB63726C8E11200E99EB2 /* MapView.swift */; };
+		929EB63F26C8F5A400E99EB2 /* DataMemory+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929EB63D26C8F5A400E99EB2 /* DataMemory+CoreDataClass.swift */; };
+		929EB64026C8F5A400E99EB2 /* DataMemory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929EB63E26C8F5A400E99EB2 /* DataMemory+CoreDataProperties.swift */; };
+		92D7549A26C7390E0061FF74 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D7549926C7390E0061FF74 /* ListView.swift */; };
 		92E931D026C6191300E413EE /* PhotoMemoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E931CF26C6191300E413EE /* PhotoMemoryApp.swift */; };
 		92E931D226C6191300E413EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E931D126C6191300E413EE /* ContentView.swift */; };
 		92E931D426C6191300E413EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E931D326C6191300E413EE /* Assets.xcassets */; };
 		92E931D726C6191300E413EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E931D626C6191300E413EE /* Preview Assets.xcassets */; };
+		92E931DF26C61A4400E413EE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E931DE26C61A4400E413EE /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9259623C26C8706D0047B198 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		9259623F26C870DF0047B198 /* PhotoMemory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoMemory.xcdatamodel; sourceTree = "<group>"; };
+		929EB62D26C8C05700E99EB2 /* MKPointAnnotation-ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-ObservableObject.swift"; sourceTree = "<group>"; };
+		929EB63526C8CE2E00E99EB2 /* LocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
+		929EB63726C8E11200E99EB2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		929EB63D26C8F5A400E99EB2 /* DataMemory+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataMemory+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		929EB63E26C8F5A400E99EB2 /* DataMemory+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataMemory+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		92D7549926C7390E0061FF74 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		92E931CC26C6191300E413EE /* PhotoMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E931CF26C6191300E413EE /* PhotoMemoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMemoryApp.swift; sourceTree = "<group>"; };
 		92E931D126C6191300E413EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92E931D326C6191300E413EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92E931D626C6191300E413EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		92E931D826C6191300E413EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92E931DE26C61A4400E413EE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +70,17 @@
 		92E931CE26C6191300E413EE /* PhotoMemory */ = {
 			isa = PBXGroup;
 			children = (
+				929EB63D26C8F5A400E99EB2 /* DataMemory+CoreDataClass.swift */,
+				929EB63E26C8F5A400E99EB2 /* DataMemory+CoreDataProperties.swift */,
 				92E931CF26C6191300E413EE /* PhotoMemoryApp.swift */,
 				92E931D126C6191300E413EE /* ContentView.swift */,
+				929EB63726C8E11200E99EB2 /* MapView.swift */,
+				9259623C26C8706D0047B198 /* PersistenceController.swift */,
+				9259623E26C870DF0047B198 /* PhotoMemory.xcdatamodeld */,
+				92D7549926C7390E0061FF74 /* ListView.swift */,
+				929EB63526C8CE2E00E99EB2 /* LocationFetcher.swift */,
+				92E931DE26C61A4400E413EE /* ImagePicker.swift */,
+				929EB62D26C8C05700E99EB2 /* MKPointAnnotation-ObservableObject.swift */,
 				92E931D326C6191300E413EE /* Assets.xcassets */,
 				92E931D826C6191300E413EE /* Info.plist */,
 				92E931D526C6191300E413EE /* Preview Content */,
@@ -138,8 +165,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929EB64026C8F5A400E99EB2 /* DataMemory+CoreDataProperties.swift in Sources */,
+				929EB63626C8CE2E00E99EB2 /* LocationFetcher.swift in Sources */,
+				929EB63826C8E11200E99EB2 /* MapView.swift in Sources */,
+				929EB63F26C8F5A400E99EB2 /* DataMemory+CoreDataClass.swift in Sources */,
+				92D7549A26C7390E0061FF74 /* ListView.swift in Sources */,
+				92E931DF26C61A4400E413EE /* ImagePicker.swift in Sources */,
 				92E931D226C6191300E413EE /* ContentView.swift in Sources */,
+				929EB62E26C8C05700E99EB2 /* MKPointAnnotation-ObservableObject.swift in Sources */,
 				92E931D026C6191300E413EE /* PhotoMemoryApp.swift in Sources */,
+				9259623D26C8706D0047B198 /* PersistenceController.swift in Sources */,
+				9259624026C870DF0047B198 /* PhotoMemory.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +364,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9259623E26C870DF0047B198 /* PhotoMemory.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9259623F26C870DF0047B198 /* PhotoMemory.xcdatamodel */,
+			);
+			currentVersion = 9259623F26C870DF0047B198 /* PhotoMemory.xcdatamodel */;
+			path = PhotoMemory.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 92E931C426C6191300E413EE /* Project object */;
 }
