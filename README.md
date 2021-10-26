@@ -10,4 +10,3 @@ The app implements: UIImagePickerController, jpegData, Comparable, MapKit, MKPoi
 
 #Requirements
 iOS 14.0+
-
